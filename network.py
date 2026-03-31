@@ -72,7 +72,6 @@ def generate_network(network_type, num_agents, **kwargs):
         m = kwargs.get('m', 3)
         # return generate_scale_free_network(num_agents, m)
         return generate_scale_free_network_new(num_agents, m, 15, 7)
-
     elif network_type == "random":
         p = kwargs.get('p', 0.1)
         return generate_random_network(num_agents, p)

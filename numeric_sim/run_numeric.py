@@ -8,6 +8,8 @@ import numpy as np
 from numeric_model import NumericWorld
 
 
+# set_seed() 控制 random 和 numpy 的隨機行為，LLM 和 Numeric Method 皆設定為 50，確保隨機行為可重現。
+
 def set_seed(seed):
     random.seed(seed)
     np.random.seed(seed)

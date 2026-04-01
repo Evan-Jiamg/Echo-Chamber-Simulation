@@ -25,8 +25,9 @@ def extract_beliefs(agents_interaction_file):
         agent_data = json.load(f)
     time_steps = len(next(iter(agent_data.values()))["beliefs"])
     beliefs_at_steps = {}
-    for step in range(time_steps):
-        beliefs_at_steps[step] = {
+    # 從 index 1 開始，跳過 Step 0（初始狀態），只顯示 Step 1 ~ Step 30
+    for step in range(1, time_steps):
+        beliefs_at_steps[step - 1] = {
             agent_id: info["beliefs"][step]
             for agent_id, info in agent_data.items()
         }
@@ -39,7 +40,7 @@ def update_frame(frame, G, pos, node_size, ax, beliefs_at_steps, time_step_text,
     colors = [cmap(norm(beliefs[str(node)])) for node in G.nodes()]
     nx.draw(G, pos, node_color=colors, node_size=node_size,
             edge_color='gray', with_labels=False, ax=ax)
-    time_step_text = ax.text(0.05, 0.95, f"Step {frame + 1}",
+    time_step_text = ax.text(0.05, 0.95, f"Step {frame + 1}",  # frame 0 = Step 1
                              transform=ax.transAxes, fontsize=14,
                              verticalalignment='top')
 

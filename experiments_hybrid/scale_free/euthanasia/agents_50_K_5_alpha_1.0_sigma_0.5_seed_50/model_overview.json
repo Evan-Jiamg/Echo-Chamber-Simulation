@@ -1,0 +1,3 @@
+{"step": 1, "polarization": 0.19333196331669922, "modularity": 0.7501757812500001, "echo_chamber_effect": 0.9693191982218412, "social_cost": 112.2985713093067, "poa": 1.9871714522998334}
+{"step": 2, "polarization": 0.12749709596120803, "modularity": 0.7733076523545706, "echo_chamber_effect": 0.988069175039409, "social_cost": 99.59112596290991, "poa": 1.7623077489632326}
+{"step": 3, "polarization": 0.10295394515574388, "modularity": 0.7733076523545706, "echo_chamber_effect": 0.9960002927636328, "social_cost": 94.97799646305054, "poa": 1.6806764410934856}

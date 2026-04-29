@@ -12,8 +12,7 @@
 from names_dataset import NameDataset
 import numpy as np
 import random
-#from openai import OpenAI
-import openai
+from openai import OpenAI
 import json
 from pydantic import BaseModel
 from prompt import *
@@ -28,10 +27,8 @@ import seaborn as sns
 from scipy.stats import pearsonr
 
 
-client = openai.Client(
-    # This is the default and can be omitted
-    api_key="xxxx",
-    base_url="xxx"
+client = OpenAI(
+    api_key=os.environ.get("OPENAI_API_KEY", ""),
 )
 
 

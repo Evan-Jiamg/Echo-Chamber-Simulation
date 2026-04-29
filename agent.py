@@ -46,7 +46,8 @@ class SocialAgent(Agent):
                  belief_keywords, gpt_model, temp=0.5, initial_opinion=None, initial_reasoning=None,
                  with_long_memory=True, mitigation_perspectives=None,
                  system_prompt="You are a helpful assistant"):
-        super().__init__(unique_id, model)
+        super().__init__(model)
+        self.unique_id = unique_id
 
 
         self.name = name

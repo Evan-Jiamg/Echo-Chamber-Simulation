@@ -26,6 +26,15 @@ from matplotlib.animation import FuncAnimation
 import seaborn as sns
 from scipy.stats import pearsonr
 
+# Load .env file if it exists (put OPENAI_API_KEY=sk-... in .env)
+_env_path = os.path.join(os.path.dirname(__file__), '.env')
+if os.path.exists(_env_path):
+    with open(_env_path) as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith('#') and '=' in _line:
+                _k, _v = _line.split('=', 1)
+                os.environ.setdefault(_k.strip(), _v.strip())
 
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY", ""),

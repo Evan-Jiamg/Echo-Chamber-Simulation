@@ -332,26 +332,3 @@ Each stage pins its own environment: `Hybrid-Network/requirements.txt` and
 statistics need only numpy, scipy, pandas and matplotlib.
 
 ---
-
-## Citation
-
-```bibtex
-@inproceedings{jiang2026hcog,
-  title     = {Agent-based Modeling: Equilibrium, Echo Chambers, and Efficiency
-               in Hybrid Coevolutionary Opinion Games},
-  author    = {Jiang, Ming-Zhi and Teng, An-Tzi and Liu, Jun-En and
-               Chen, Po-An and Li, Yung-Ming},
-  booktitle = {International Conference on Computational Data and Social Networks
-               (CSoNet)},
-  year      = {2026},
-  note      = {Under review}
-}
-```
-
-Update `booktitle`, `pages` and `doi` on acceptance.
-
-## License
-
-Add a `LICENSE` file before making the repository public. Note that the PushShift-derived
-corpus is subject to Reddit's terms; only derived stance scores and agent priors are
-redistributed here, not raw comment text.

@@ -1,0 +1,16 @@
+{
+  "t_conv": 64,
+  "attractor": "plateau",
+  "period": null,
+  "steps_run": 74,
+  "C_plateau": 0.9708,
+  "hit_T_max": false,
+  "alpha": 0.125,
+  "network": "scale_free",
+  "topic": "abortion",
+  "topic_desc": "Should abortion be legal and accessible?",
+  "n_llm": 44,
+  "n_numeric": 6,
+  "parse_failures": 0,
+  "llm_calls": 3256
+}

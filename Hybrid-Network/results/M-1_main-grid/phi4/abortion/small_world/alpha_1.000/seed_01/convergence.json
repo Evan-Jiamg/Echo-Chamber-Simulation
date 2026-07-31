@@ -1,0 +1,16 @@
+{
+  "t_conv": 7,
+  "attractor": "fixed_point",
+  "period": 1,
+  "steps_run": 17,
+  "C_plateau": 0.9916,
+  "hit_T_max": false,
+  "alpha": 1.0,
+  "network": "small_world",
+  "topic": "abortion",
+  "topic_desc": "",
+  "n_llm": 0,
+  "n_numeric": 50,
+  "parse_failures": 0,
+  "llm_calls": 0
+}

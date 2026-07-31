@@ -1,0 +1,46 @@
+{
+  "run_id": "M-1_main-grid",
+  "model": "phi4",
+  "num_agents": 50,
+  "K": 5,
+  "temperature": 0.0,
+  "scorer": "roberta (fine-tuned stance regressor, BWS-calibrated)",
+  "field_order": "cot_first",
+  "guided_decoding": false,
+  "stopping": "dynamic; C_out plateau, W=10, eps_C=0.01, patience=5, post_window=10, T_max=120",
+  "topics": [
+    "gun_control",
+    "abortion"
+  ],
+  "networks": [
+    "scale_free",
+    "random",
+    "small_world"
+  ],
+  "alphas": [
+    "0.0",
+    "0.125",
+    "0.25",
+    "0.375",
+    "0.5",
+    "0.625",
+    "0.75",
+    "0.875",
+    "1.0"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "total_runs": 540,
+  "layout": "{topic}/{network}/alpha_{a:.3f}/seed_{s:02d}/",
+  "commit": "c21c93a"
+}

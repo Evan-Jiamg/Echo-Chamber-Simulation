@@ -1,0 +1,16 @@
+{
+  "t_conv": 21,
+  "attractor": "limit_cycle:6",
+  "period": 6,
+  "steps_run": 31,
+  "C_plateau": 0.9848000000000001,
+  "hit_T_max": false,
+  "alpha": 1.0,
+  "network": "small_world",
+  "topic": "gun_control",
+  "topic_desc": "",
+  "n_llm": 0,
+  "n_numeric": 50,
+  "parse_failures": 0,
+  "llm_calls": 0
+}

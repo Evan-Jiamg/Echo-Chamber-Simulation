@@ -1,0 +1,46 @@
+completed runs: 540
+
+==============================================================================
+FILE PRESENCE
+==============================================================================
+  metrics.csv                  OK                       total      5.7 MB
+  convergence.json             OK                       total      0.2 MB
+  agents_data.json             OK                       total   2262.0 MB
+  edges_per_step.json          OK                       total     58.3 MB
+  model_overview.json          OK                       total     11.0 MB
+  agent_assignment.json        OK                       total      0.4 MB
+
+==============================================================================
+METRICS.CSV INTEGRITY
+==============================================================================
+  expected 18 columns: OK, all runs match
+  row count == steps_run: OK, all runs match
+  zero-byte files: none
+
+==============================================================================
+WHAT IS INSIDE agents_data.json / agents_interaction_data.json
+==============================================================================
+  agents_data.json   : 50 agents, fields per agent = ['beliefs', 'opinions', 'reasonings', 'short_memory', 'long_memory']
+      beliefs        len=33    sample=[-0.9444]
+      opinions       len=33    sample=['I firmly reject the notion that abortion should be a casual or nonch
+      reasonings     len=33    sample=["I believe abortion involves deeply complex moral considerations; it'
+      short_memory   len=32    sample=[["I gently oppose abortion because I believe in supporting women thro
+      long_memory    len=33    sample=['']
+  agents_interaction_data.json : type=dict len=50
+      key=0 -> dict
+      fields: ['beliefs', 'opinions']
+        beliefs          [-0.9444, -0.17099738121032715, -0.22492747008800507, -0.2086973488330841, -0.20
+        opinions         ['I firmly reject the notion that abortion should be a casual or nonchalant deci
+
+==============================================================================
+REASONING TRACES  (needed for A-2)
+==============================================================================
+  agents_data.json                 contains 'reasoning': True
+  agents_interaction_data.json     contains 'reasoning': False
+  model_overview.json              contains 'reasoning': False
+
+==============================================================================
+DISK
+==============================================================================
+  recorded so far : 2.34 GB over 540 runs (4.3 MB/run)
+  projected @540  : 2.34 GB

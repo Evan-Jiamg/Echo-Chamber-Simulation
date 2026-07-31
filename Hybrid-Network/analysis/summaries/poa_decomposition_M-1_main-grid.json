@@ -1,0 +1,542 @@
+[
+  {
+    "topic": "abortion",
+    "network": "random",
+    "alpha": 0.0,
+    "n": 10,
+    "poa": 5.813552554443475,
+    "poa_conflict": 3.285186423687982,
+    "poa_conformity": 2.5283661307554928,
+    "conflict_share": 0.5573348109520603
+  },
+  {
+    "topic": "abortion",
+    "network": "random",
+    "alpha": 0.125,
+    "n": 10,
+    "poa": 6.637379019849092,
+    "poa_conflict": 4.203279932449347,
+    "poa_conformity": 2.434099087399745,
+    "conflict_share": 0.6270626798301644
+  },
+  {
+    "topic": "abortion",
+    "network": "random",
+    "alpha": 0.25,
+    "n": 10,
+    "poa": 6.314208425948449,
+    "poa_conflict": 4.271098227319504,
+    "poa_conformity": 2.0431101986289444,
+    "conflict_share": 0.6748529030316517
+  },
+  {
+    "topic": "abortion",
+    "network": "random",
+    "alpha": 0.375,
+    "n": 10,
+    "poa": 5.991442266926232,
+    "poa_conflict": 4.068412591525733,
+    "poa_conformity": 1.9230296754005,
+    "conflict_share": 0.6802277656513123
+  },
+  {
+    "topic": "abortion",
+    "network": "random",
+    "alpha": 0.5,
+    "n": 10,
+    "poa": 5.248555483932323,
+    "poa_conflict": 3.6246214080509014,
+    "poa_conformity": 1.6239340758814216,
+    "conflict_share": 0.689471690503902
+  },
+  {
+    "topic": "abortion",
+    "network": "random",
+    "alpha": 0.625,
+    "n": 10,
+    "poa": 4.7457165238497385,
+    "poa_conflict": 3.2516379818637917,
+    "poa_conformity": 1.4940785419859461,
+    "conflict_share": 0.6857966232749576
+  },
+  {
+    "topic": "abortion",
+    "network": "random",
+    "alpha": 0.75,
+    "n": 10,
+    "poa": 3.975547183710936,
+    "poa_conflict": 2.7879014329257332,
+    "poa_conformity": 1.1876457507852023,
+    "conflict_share": 0.7032351841691804
+  },
+  {
+    "topic": "abortion",
+    "network": "random",
+    "alpha": 0.875,
+    "n": 10,
+    "poa": 2.5991828788783935,
+    "poa_conflict": 1.9113824355345301,
+    "poa_conformity": 0.6878004433438631,
+    "conflict_share": 0.7440815610569648
+  },
+  {
+    "topic": "abortion",
+    "network": "random",
+    "alpha": 1.0,
+    "n": 10,
+    "poa": 1.1276765783711185,
+    "poa_conflict": 0.9112892234797485,
+    "poa_conformity": 0.2163873548913701,
+    "conflict_share": 0.8081123035868345
+  },
+  {
+    "topic": "abortion",
+    "network": "scale_free",
+    "alpha": 0.0,
+    "n": 10,
+    "poa": 5.264003090174262,
+    "poa_conflict": 2.864739541159316,
+    "poa_conformity": 2.3992635490149468,
+    "conflict_share": 0.5440111731516993
+  },
+  {
+    "topic": "abortion",
+    "network": "scale_free",
+    "alpha": 0.125,
+    "n": 10,
+    "poa": 5.958641486800774,
+    "poa_conflict": 3.752180461334833,
+    "poa_conformity": 2.2064610254659414,
+    "conflict_share": 0.6293303346684125
+  },
+  {
+    "topic": "abortion",
+    "network": "scale_free",
+    "alpha": 0.25,
+    "n": 10,
+    "poa": 5.981830079358285,
+    "poa_conflict": 4.089876608849408,
+    "poa_conformity": 1.8919534705088779,
+    "conflict_share": 0.6844743724105437
+  },
+  {
+    "topic": "abortion",
+    "network": "scale_free",
+    "alpha": 0.375,
+    "n": 10,
+    "poa": 5.5759528735255905,
+    "poa_conflict": 3.859695928411628,
+    "poa_conformity": 1.7162569451139618,
+    "conflict_share": 0.6941305401203113
+  },
+  {
+    "topic": "abortion",
+    "network": "scale_free",
+    "alpha": 0.5,
+    "n": 10,
+    "poa": 5.068100890135301,
+    "poa_conflict": 3.5271543200931545,
+    "poa_conformity": 1.5409465700421459,
+    "conflict_share": 0.6955214666901854
+  },
+  {
+    "topic": "abortion",
+    "network": "scale_free",
+    "alpha": 0.625,
+    "n": 10,
+    "poa": 4.740679999266295,
+    "poa_conflict": 3.2671600892365014,
+    "poa_conformity": 1.4735199100297935,
+    "conflict_share": 0.6885344982743581
+  },
+  {
+    "topic": "abortion",
+    "network": "scale_free",
+    "alpha": 0.75,
+    "n": 10,
+    "poa": 3.8765999050848827,
+    "poa_conflict": 2.7086926058482876,
+    "poa_conformity": 1.1679072992365953,
+    "conflict_share": 0.7010679306664385
+  },
+  {
+    "topic": "abortion",
+    "network": "scale_free",
+    "alpha": 0.875,
+    "n": 10,
+    "poa": 2.8312839443066595,
+    "poa_conflict": 2.094176263332923,
+    "poa_conformity": 0.7371076809737367,
+    "conflict_share": 0.7494576581540889
+  },
+  {
+    "topic": "abortion",
+    "network": "scale_free",
+    "alpha": 1.0,
+    "n": 10,
+    "poa": 1.1285986116900772,
+    "poa_conflict": 0.9117000819679173,
+    "poa_conformity": 0.21689852972216003,
+    "conflict_share": 0.8078161410397451
+  },
+  {
+    "topic": "abortion",
+    "network": "small_world",
+    "alpha": 0.0,
+    "n": 10,
+    "poa": 5.230845678438068,
+    "poa_conflict": 2.9297601644877354,
+    "poa_conformity": 2.3010855139503334,
+    "conflict_share": 0.5575145083497147
+  },
+  {
+    "topic": "abortion",
+    "network": "small_world",
+    "alpha": 0.125,
+    "n": 10,
+    "poa": 6.368716240158204,
+    "poa_conflict": 4.057511167492722,
+    "poa_conformity": 2.311205072665481,
+    "conflict_share": 0.6353423048239779
+  },
+  {
+    "topic": "abortion",
+    "network": "small_world",
+    "alpha": 0.25,
+    "n": 10,
+    "poa": 5.9345106762890785,
+    "poa_conflict": 4.041285423406955,
+    "poa_conformity": 1.8932252528821238,
+    "conflict_share": 0.6812888824688376
+  },
+  {
+    "topic": "abortion",
+    "network": "small_world",
+    "alpha": 0.375,
+    "n": 10,
+    "poa": 5.877194425364669,
+    "poa_conflict": 4.065346328673489,
+    "poa_conformity": 1.8118480966911794,
+    "conflict_share": 0.6939584569613357
+  },
+  {
+    "topic": "abortion",
+    "network": "small_world",
+    "alpha": 0.5,
+    "n": 10,
+    "poa": 5.034057718704195,
+    "poa_conflict": 3.4735428530637478,
+    "poa_conformity": 1.5605148656404466,
+    "conflict_share": 0.6908227013891909
+  },
+  {
+    "topic": "abortion",
+    "network": "small_world",
+    "alpha": 0.625,
+    "n": 10,
+    "poa": 4.522819875255355,
+    "poa_conflict": 3.1608308318221745,
+    "poa_conformity": 1.36198904343318,
+    "conflict_share": 0.6990379185119713
+  },
+  {
+    "topic": "abortion",
+    "network": "small_world",
+    "alpha": 0.75,
+    "n": 10,
+    "poa": 3.707435739046616,
+    "poa_conflict": 2.6018271872066494,
+    "poa_conformity": 1.1056085518399668,
+    "conflict_share": 0.7010054826529875
+  },
+  {
+    "topic": "abortion",
+    "network": "small_world",
+    "alpha": 0.875,
+    "n": 10,
+    "poa": 2.842255501386653,
+    "poa_conflict": 2.08123164515568,
+    "poa_conformity": 0.7610238562309731,
+    "conflict_share": 0.7411730483532646
+  },
+  {
+    "topic": "abortion",
+    "network": "small_world",
+    "alpha": 1.0,
+    "n": 10,
+    "poa": 1.1296096305416863,
+    "poa_conflict": 0.9129478364731494,
+    "poa_conformity": 0.21666179406853683,
+    "conflict_share": 0.8081978541973731
+  },
+  {
+    "topic": "gun_control",
+    "network": "random",
+    "alpha": 0.0,
+    "n": 10,
+    "poa": 5.717699161628429,
+    "poa_conflict": 3.179134112902346,
+    "poa_conformity": 2.5385650487260834,
+    "conflict_share": 0.5484050762856784
+  },
+  {
+    "topic": "gun_control",
+    "network": "random",
+    "alpha": 0.125,
+    "n": 10,
+    "poa": 5.152884357163285,
+    "poa_conflict": 3.168674748028315,
+    "poa_conformity": 1.9842096091349695,
+    "conflict_share": 0.6161224569888981
+  },
+  {
+    "topic": "gun_control",
+    "network": "random",
+    "alpha": 0.25,
+    "n": 10,
+    "poa": 5.608296375513225,
+    "poa_conflict": 3.625668454088295,
+    "poa_conformity": 1.9826279214249312,
+    "conflict_share": 0.6443773350328463
+  },
+  {
+    "topic": "gun_control",
+    "network": "random",
+    "alpha": 0.375,
+    "n": 10,
+    "poa": 5.447735409865135,
+    "poa_conflict": 3.643595256127687,
+    "poa_conformity": 1.804140153737448,
+    "conflict_share": 0.6685082928918258
+  },
+  {
+    "topic": "gun_control",
+    "network": "random",
+    "alpha": 0.5,
+    "n": 10,
+    "poa": 5.595217622677433,
+    "poa_conflict": 3.8216023892024324,
+    "poa_conformity": 1.7736152334750006,
+    "conflict_share": 0.6839638279526563
+  },
+  {
+    "topic": "gun_control",
+    "network": "random",
+    "alpha": 0.625,
+    "n": 10,
+    "poa": 4.554539852632274,
+    "poa_conflict": 3.125888201972792,
+    "poa_conformity": 1.4286516506594826,
+    "conflict_share": 0.6895259405848178
+  },
+  {
+    "topic": "gun_control",
+    "network": "random",
+    "alpha": 0.75,
+    "n": 10,
+    "poa": 4.126058750323548,
+    "poa_conflict": 2.852482104677501,
+    "poa_conformity": 1.273576645646047,
+    "conflict_share": 0.6911229965884986
+  },
+  {
+    "topic": "gun_control",
+    "network": "random",
+    "alpha": 0.875,
+    "n": 10,
+    "poa": 3.1068189528972114,
+    "poa_conflict": 2.2422750328110768,
+    "poa_conformity": 0.8645439200861349,
+    "conflict_share": 0.7250065744415517
+  },
+  {
+    "topic": "gun_control",
+    "network": "random",
+    "alpha": 1.0,
+    "n": 10,
+    "poa": 1.1400436754037917,
+    "poa_conflict": 0.9819277650746064,
+    "poa_conformity": 0.15811591032918543,
+    "conflict_share": 0.8613153880675319
+  },
+  {
+    "topic": "gun_control",
+    "network": "scale_free",
+    "alpha": 0.0,
+    "n": 10,
+    "poa": 5.431536823816378,
+    "poa_conflict": 3.052626651969723,
+    "poa_conformity": 2.3789101718466554,
+    "conflict_share": 0.5535755253314054
+  },
+  {
+    "topic": "gun_control",
+    "network": "scale_free",
+    "alpha": 0.125,
+    "n": 10,
+    "poa": 5.681065501718649,
+    "poa_conflict": 3.5140129619106153,
+    "poa_conformity": 2.167052539808034,
+    "conflict_share": 0.6179085027294522
+  },
+  {
+    "topic": "gun_control",
+    "network": "scale_free",
+    "alpha": 0.25,
+    "n": 10,
+    "poa": 5.9064201903775,
+    "poa_conflict": 3.7959991524244083,
+    "poa_conformity": 2.110421037953093,
+    "conflict_share": 0.642994690744347
+  },
+  {
+    "topic": "gun_control",
+    "network": "scale_free",
+    "alpha": 0.375,
+    "n": 10,
+    "poa": 5.414390199236946,
+    "poa_conflict": 3.5768150224148867,
+    "poa_conformity": 1.8375751768220578,
+    "conflict_share": 0.660509451334305
+  },
+  {
+    "topic": "gun_control",
+    "network": "scale_free",
+    "alpha": 0.5,
+    "n": 10,
+    "poa": 5.087394816796033,
+    "poa_conflict": 3.467297182134806,
+    "poa_conformity": 1.6200976346612261,
+    "conflict_share": 0.6837974646757875
+  },
+  {
+    "topic": "gun_control",
+    "network": "scale_free",
+    "alpha": 0.625,
+    "n": 10,
+    "poa": 4.210763849960087,
+    "poa_conflict": 2.883261565842521,
+    "poa_conformity": 1.3275022841175659,
+    "conflict_share": 0.6859265233919097
+  },
+  {
+    "topic": "gun_control",
+    "network": "scale_free",
+    "alpha": 0.75,
+    "n": 10,
+    "poa": 3.9467264502799297,
+    "poa_conflict": 2.7538212723433113,
+    "poa_conformity": 1.192905177936618,
+    "conflict_share": 0.7001071338571737
+  },
+  {
+    "topic": "gun_control",
+    "network": "scale_free",
+    "alpha": 0.875,
+    "n": 10,
+    "poa": 3.3856272663432305,
+    "poa_conflict": 2.4247990559934487,
+    "poa_conformity": 0.9608282103497823,
+    "conflict_share": 0.7188450816412857
+  },
+  {
+    "topic": "gun_control",
+    "network": "scale_free",
+    "alpha": 1.0,
+    "n": 10,
+    "poa": 1.1478317778834994,
+    "poa_conflict": 0.994367928221106,
+    "poa_conformity": 0.15346384966239351,
+    "conflict_share": 0.866208891596197
+  },
+  {
+    "topic": "gun_control",
+    "network": "small_world",
+    "alpha": 0.0,
+    "n": 10,
+    "poa": 5.892775722422404,
+    "poa_conflict": 3.504632981127391,
+    "poa_conformity": 2.3881427412950123,
+    "conflict_share": 0.5909657613814838
+  },
+  {
+    "topic": "gun_control",
+    "network": "small_world",
+    "alpha": 0.125,
+    "n": 10,
+    "poa": 5.607522145984346,
+    "poa_conflict": 3.4458890632853576,
+    "poa_conformity": 2.161633082698989,
+    "conflict_share": 0.6128403177480382
+  },
+  {
+    "topic": "gun_control",
+    "network": "small_world",
+    "alpha": 0.25,
+    "n": 10,
+    "poa": 5.412154156132924,
+    "poa_conflict": 3.4679457021353506,
+    "poa_conformity": 1.944208453997573,
+    "conflict_share": 0.6379308631262888
+  },
+  {
+    "topic": "gun_control",
+    "network": "small_world",
+    "alpha": 0.375,
+    "n": 10,
+    "poa": 5.570357440523738,
+    "poa_conflict": 3.719772596246885,
+    "poa_conformity": 1.850584844276852,
+    "conflict_share": 0.6669402317597201
+  },
+  {
+    "topic": "gun_control",
+    "network": "small_world",
+    "alpha": 0.5,
+    "n": 10,
+    "poa": 5.439976223257356,
+    "poa_conflict": 3.7438107727789345,
+    "poa_conformity": 1.6961654504784225,
+    "conflict_share": 0.6866529199860324
+  },
+  {
+    "topic": "gun_control",
+    "network": "small_world",
+    "alpha": 0.625,
+    "n": 10,
+    "poa": 4.505746567374201,
+    "poa_conflict": 3.074417231283615,
+    "poa_conformity": 1.4313293360905863,
+    "conflict_share": 0.6850367130628671
+  },
+  {
+    "topic": "gun_control",
+    "network": "small_world",
+    "alpha": 0.75,
+    "n": 10,
+    "poa": 3.3915493486190327,
+    "poa_conflict": 2.3638155624477433,
+    "poa_conformity": 1.0277337861712903,
+    "conflict_share": 0.6986842556107151
+  },
+  {
+    "topic": "gun_control",
+    "network": "small_world",
+    "alpha": 0.875,
+    "n": 10,
+    "poa": 3.166343570468143,
+    "poa_conflict": 2.2955256688138332,
+    "poa_conformity": 0.8708179016543098,
+    "conflict_share": 0.731578152358097
+  },
+  {
+    "topic": "gun_control",
+    "network": "small_world",
+    "alpha": 1.0,
+    "n": 10,
+    "poa": 1.1580538058125724,
+    "poa_conflict": 1.0219104441345785,
+    "poa_conformity": 0.13614336167799412,
+    "conflict_share": 0.8823533238316591
+  }
+]

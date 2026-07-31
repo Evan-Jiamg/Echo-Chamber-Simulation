@@ -1,0 +1,16 @@
+{
+  "t_conv": 44,
+  "attractor": "plateau",
+  "period": null,
+  "steps_run": 54,
+  "C_plateau": 0.9384,
+  "hit_T_max": false,
+  "alpha": 0.25,
+  "network": "scale_free",
+  "topic": "gun_control",
+  "topic_desc": "Should the government implement stricter gun control laws?",
+  "n_llm": 38,
+  "n_numeric": 12,
+  "parse_failures": 1,
+  "llm_calls": 2052
+}

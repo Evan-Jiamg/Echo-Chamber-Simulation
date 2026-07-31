@@ -1,0 +1,35 @@
+# Large data files (too large for GitHub)
+data/embeddings_politics.npy
+data/ids_politics.json
+model/*.pt
+
+# Raw dataset (15 GB)
+*.zst
+
+# Generated figures. visualize_stance.py and visualize.py rebuild these.
+# analysis/figures/*.png (the six EDA charts) is NOT ignored: eda.py reads the
+# 15 GB Pushshift dump, which is not in the repository, so those cannot be
+# regenerated here.
+analysis/figures/stance/
+analysis/reports/eda_report.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# A second scored copy of the corpus, kept on disk but out of the repository.
+stance_scores_bws/

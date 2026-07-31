@@ -1,0 +1,38 @@
+==============================================================================
+Is PoA at alpha=0.125 higher than at alpha=0?   Welch's t-test
+==============================================================================
+  gun_control   alpha=0: 5.681 (n=30)   alpha=0.125: 5.480 (n=30)   t=-0.89  p=0.3789  d=-0.23
+  abortion      alpha=0: 5.436 (n=30)   alpha=0.125: 6.322 (n=30)   t=+2.74  p=0.0084  d=0.71
+  POOLED        alpha=0: 5.558 (n=60)   alpha=0.125: 5.901 (n=60)   t=+1.68  p=0.0951  d=0.31
+
+==============================================================================
+Peak location: is the maximum significantly above alpha=0, per topic?
+==============================================================================
+  gun_control  peak at alpha=0 (5.681) vs alpha=0 (5.681):  p=1.0000  d=0.00  -> not significant
+  abortion     peak at alpha=0.125 (6.322) vs alpha=0 (5.436):  p=0.0084  d=0.71  -> SIGNIFICANT
+
+==============================================================================
+Adjacent-alpha comparisons, pooled, with BH-FDR
+==============================================================================
+  0      -> 0.125    5.558 ->  5.901  t= +1.68  p=0.09507  q=0.1268  
+  0.125  -> 0.25     5.901 ->  5.860  t= -0.22  p=0.8262  q=0.8262  
+  0.25   -> 0.375    5.860 ->  5.646  t= -1.17  p=0.2448  q=0.2798  
+  0.375  -> 0.5      5.646 ->  5.246  t= -2.31  p=0.02262  q=0.03619 *
+  0.5    -> 0.625    5.246 ->  4.547  t= -4.25  p=4.248e-05  q=8.496e-05 *
+  0.625  -> 0.75     4.547 ->  3.837  t= -4.83  p=4.264e-06  q=1.137e-05 *
+  0.75   -> 0.875    3.837 ->  2.989  t= -6.23  p=7.459e-09  q=2.984e-08 *
+  0.875  -> 1        2.989 ->  1.139  t=-19.17  p=4.833e-27  q=3.866e-26 *
+
+==============================================================================
+Q1: are the three networks equivalent?  TOST, delta = 0.2 (see Statistics in the root README)
+==============================================================================
+  alpha    pair                       diff       TOST p (equivalence)
+  0        scale_free/random          -0.418      0.6938  not shown
+  0.125    scale_free/small_world     -0.168      0.4542  not shown
+  0.25     random/small_world         +0.288      0.5939  not shown
+  0.375    scale_free/random          -0.224      0.5384  not shown
+  0.5      scale_free/random          -0.344      0.7036  not shown
+  0.625    scale_free/random          -0.174      0.4619  not shown
+  0.75     random/small_world         +0.501      0.9323  not shown
+  0.875    scale_free/random          +0.255      0.5894  not shown
+  1        scale_free/small_world     -0.006      0.0000  EQUIVALENT

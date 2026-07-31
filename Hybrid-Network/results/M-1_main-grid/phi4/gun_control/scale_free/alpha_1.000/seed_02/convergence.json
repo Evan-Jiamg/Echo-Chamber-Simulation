@@ -1,0 +1,16 @@
+{
+  "t_conv": 29,
+  "attractor": "plateau",
+  "period": null,
+  "steps_run": 39,
+  "C_plateau": 0.9900000000000002,
+  "hit_T_max": false,
+  "alpha": 1.0,
+  "network": "scale_free",
+  "topic": "gun_control",
+  "topic_desc": "",
+  "n_llm": 0,
+  "n_numeric": 50,
+  "parse_failures": 0,
+  "llm_calls": 0
+}

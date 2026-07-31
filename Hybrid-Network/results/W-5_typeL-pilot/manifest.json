@@ -1,0 +1,26 @@
+{
+  "run_id": "W-5_typeL-pilot",
+  "model": "phi4",
+  "purpose": "Do the Type-C-calibrated stopping parameters hold for Type-L?",
+  "num_agents": 50,
+  "K": 5,
+  "temperature": 0.0,
+  "topics": [
+    "gun_control"
+  ],
+  "networks": [
+    "scale_free"
+  ],
+  "alphas": [
+    0.0,
+    0.5
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "T_max_used": 100,
+  "result": "6/6 plateau, hit_T_max 0/6, t_conv 30-79 -> T_max raised 60 to 120",
+  "layout": "{topic}/{network}/alpha_{a:.3f}/seed_{s:02d}/"
+}

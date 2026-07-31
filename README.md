@@ -330,5 +330,3 @@ repeated runs.
 Each stage pins its own environment: `Hybrid-Network/requirements.txt` and
 `Reddit-Dataset/requirements.txt`. Neither analysis path needs a GPU — figures and
 statistics need only numpy, scipy, pandas and matplotlib.
-
----
